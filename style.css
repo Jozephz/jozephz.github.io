@@ -1,0 +1,94 @@
+html { font size: 10px;
+  background: white;
+  font-family: 'Space Mono', monospace;
+  }
+
+body {  text-align: center;
+  line-height: 1.5;
+  margin-top: 5px;
+  padding: 1px;
+  border-radius: 5px;
+  }
+
+#main {
+  background: lightgrey;}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  }
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div { background-image: url("https://www.craftpaks.com.au/uploads/8/0/5/1/80511940/s472679891722322601_p1037_i1_w432.jpeg");
+  background-repeat: repeat;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 5px;
+  }
+
+#img-caption {
+  margin-top: 5px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 0.7rem;
+  }
+}
+
+ul {
+  max-width: 500px;
+  margin: 0 auto 0px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+li { margin: 20px 1px; 
+  }
+
+h3 { margin: 30px 1px;
+     font-size: 1.3em;
+  }
+
+h3:hover {animation: read-more;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;}
+
+@keyframes read-more { 9% {font-size: 23px;}}
+
+#nav-bar { position: sticky;
+  top: 0;
+  left: 0;
+  background: black;
+  margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+.nav-link { color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+
+@media (max-width: 460px) {
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+a:visited {
+  color: #74638f;
+}
