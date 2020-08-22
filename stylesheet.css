@@ -11,7 +11,8 @@ body {  text-align: center;
   }
 
 #main {
-  background: lightgrey;}
+  background: #3333;
+}
 
 h1 {
   font-size: 4rem;
