@@ -1,3 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
 html { font size: 10px;
   background: white;
   font-family: 'Space Mono', monospace;
