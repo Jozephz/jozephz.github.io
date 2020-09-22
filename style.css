@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  font-family: garamond;
+	vertical-align: baseline;
+  box-sizing: border-box;
+  color: white;
+}
+
+html {
+  background-repeat: no-repeat;
+  background: url(https://i.pinimg.com/originals/67/5a/bd/675abd56f3ff3326658f92c87ac8fe80.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  background-color: rgba(14, 85, 199, 0.5);
+  padding: 1.5em;
+  padding-bottom: 0.1em;
+  border-radius: 5px;
+  margin: 2rem auto 1.5em auto;
+}
+
+@media (min-width: 576px) {
+  main {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 700px) {
+  main {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2rem;
+  }
+}
+
+#title {
+  font-family: garamond;
+  font-size: 4em;
+  margin-top: 0.5em;
+  color: #366491;
+  text-shadow: 2px 3px 2px #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+#description {
+  font-family: garamond;
+  font-size: 1.5em;
+  color: #053a6e;
+  text-shadow: 1px 1px 1px #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.group {
+  font-size: 1.4em;
+  margin: 0 auto 1.25rem auto;
+  padding: 0.15rem;
+}
+
+.bars {
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.4em;
+  font-family: garamond;
+  font-size: 0.9em;
+  color: grey;
+  margin-top: 0.45em;
+}
+
+.bars:hover {
+  box-shadow: 0 0 8px rgba(4, 8, 51, 1);
+}
+
+.optional {
+  font-size: 0.7em;
+}
+
+p {margin-bottom: 0.5em;}
+
+ul { 
+  list-style-type: none;
+}
+
+.radio_check {
+ min-height: 1.1rem;
+ min-width: 1.1rem;
+ margin: 6px;
+}
+
+textarea { 
+  width: 100%; 
+  margin-top: 0.45em;
+  min-height: 50px;
+  font-family: garamond;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+textarea:hover {
+  box-shadow: 0 0 8px rgba(4, 8, 51, 1);
+}
+
+button {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5em;
+  margin-left: 2px;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: white;
+  background: #063869;
+  border: black;
+}
+
+button:hover {
+  box-shadow: 0 0 2px rgba(4, 8, 51, 1);
+  color: black;
+}
+
+
+
+

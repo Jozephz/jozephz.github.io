@@ -1,0 +1,133 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+  <title>Fruit Survey</title>
+</head>
+  <header>
+    <h1 id="title">Fruit Survey</h1>
+    <p id="description">Finding the nation's favourite fruit</p>
+  </header>
+  
+  <main>
+    <form id="survey-form" action="" method="GET">
+      
+      <div class="group">
+      <label 
+             id="name-label"                        for="name">Name*</label>
+      <input 
+             class="bars"
+             type="text" 
+             id="name" 
+             name="name"                            placeholder="Enter Your Name" 
+             required="required"</input>
+      </div>
+      
+      <div class="group">
+      <label 
+             id="email-label"                        for="email">Email*</label>
+      <input 
+             class="bars"
+             type="email" 
+             id="email" 
+             name="email"                            placeholder="Enter Your Email" 
+             required="required"</input>
+      </div>
+      
+      <div class="group">
+      <label
+             id="number-label"                      for="number">Age <span class="optional">(optional)</label>
+        <input
+             class="bars"
+             type="number" 
+             id="number" 
+             name="age"                              placeholder="Enter Your Age" 
+             min="12" 
+             max="99"</input>
+    </div>
+      
+      <div class="group">
+      <label for="dropdown">Select Your Favourite Fruit</label>
+      <select
+            class="bars"
+            id="dropdown"                           name="favourite_fruit">
+        <option value="cherry">Cherry</option>
+        <option value="banana">Banana</option>
+        <option value="apple">Apple</option>
+        <option value="pear">Pear</option>
+      </select>
+      </div>
+      
+      <div class="group">
+           <p>Select Your Favourite Apple</p>
+    <ul>
+      <li>
+        <input 
+             class="radio_check"
+             type="radio"                            id="granny_smith"                      name="favourite_apple"                  value="granny_smith"             </input>
+        <label for="granny_smith">Granny Smith</label>
+      </li>
+      <li>
+        <input 
+            class="radio_check"
+            type="radio"                           id="golden_delicious"                   name="favourite_apple"                 value="golden_delicious"           </input>
+         <label for="golden_delicious">Golden Delicious</label>
+      </li>
+      <li>
+        <input 
+            class="radio_check"
+            type="radio"                           id="red_delicious"                     name="favourite_apple"                 value="red_delicious"                </input>
+        <label for="red_delicious">Red Delicious</label>
+      </li>
+    </div>
+  
+  <div class="group">
+           <p>How often do you eat fruit?</p>
+    <ul>
+      <li>
+        <input 
+             class="radio_check"
+             type="checkbox"                        id="monday_friday"                      name="how_often_fruit"                  value="monday_to_friday"               </input>
+        <label for="monday_friday">Monday to Friday</label>
+      </li>
+      <li>
+        <input 
+             class="radio_check"
+             type="checkbox"                        id="saturday"                          name="how_often_fruit"                  value="saturday"               </input>
+         <label for="saturday">Saturday</label>
+      </li>
+      <li>
+        <input 
+             class="radio_check"
+             type="checkbox"                        id="sunday"                          name="how_often_fruit"                  value="sunday"                   </input>
+         <label for="sunday">Sunday</label>
+      </li>
+  </div>
+  
+  <div class="group">
+     <label for="more_fruit">Tell us your fruit related opinions<label>
+       <span>
+       <textarea id="more_fruit" name="fruit_opinion" placeholder="Your Fruit Opinion..."></textarea>
+       </span>
+       </div>
+       
+ <div class="group">
+    <button
+      type="submit"
+      id="submit">Submit</button>
+       </div>
+       
+       </form>
+    </main>
+</html>
+      
+      
+  
+  
+      
+      
+      
